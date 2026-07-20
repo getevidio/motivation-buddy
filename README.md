@@ -1,15 +1,21 @@
-A pixel version of you walks in from the edge of your screen every x minutes,
-gives a thumbs up, tells you you're doing amazing, and walks back out. 
-You can customize it to tell you whatever you want it to tell you. mine says "you're amazing" but yours can say whatever you want it to! you can also use it as reminders to stop scrolling or to drink water, they can be whatever you want really.
+# Encourager
 
-macOS. Transparent background, no window chrome, stays visible (for however long you want it to) while you work, yes you can try clicking it away, it will stay on screen.
+A pixel version of you walks in from the edge of your screen every 30 minutes,
+gives a thumbs up, tells you you're doing amazing, and walks back out.
+
+macOS. Transparent background, no window chrome, stays visible while you work.
+
+![demo](docs/demo.gif)
+
+---
 
 ## Install
+
 You need Python 3. If `python3 --version` in Terminal doesn't print `3.10` or
 higher, get it from [python.org/downloads](https://www.python.org/downloads/).
 
 ```sh
-git clone https://github.com/getevidio/encourager.git
+git clone https://github.com/YOUR-USERNAME/encourager.git
 cd encourager
 pip3 install -r requirements.txt
 python3 encourager.py
