@@ -1,9 +1,8 @@
-# Making your own character
+# Making your own character (that looks like you!!!) how cool???
 
-You need six PNGs in `sprites/`. This guide covers how to get them and the
-things that will go wrong.
+You need six PNGs in `sprites/`. This covers how to get them and the things that will go wrong (trust me they will, we are working with AI here...)
 
-## The six frames
+## The six frames needed
 
 | File | Pose |
 |---|---|
@@ -13,6 +12,8 @@ things that will go wrong.
 | `walk_up.png` | Pushing off, rising |
 | `turn.png` | 3/4 view, mid-turn toward the viewer |
 | `thumb.png` | Facing the viewer, thumbs up |
+
+## IF you want to generate this with AI use this prompt:
 
 The four walk poses are a standard cycle. Search "walk cycle contact down
 passing up" for reference — the names are universal in animation.
